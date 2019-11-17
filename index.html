@@ -3,9 +3,15 @@
     <head>
         <meta charset="UTF-8">
         <title>Overwatch v2</title>
+         <script type = "text/javascript">
+            function loadref(time)
+            {
+                setTimeout("location.reload(true);",time)
+            }
+        </script>
         <link rel="stylesheet" href="./style.css">
     </head>
-    <body>
+    <body onload="Javascript:loadref(5000)">
         <div class="container">
             <h2 id="city">Athens</h2>
             <div class="middle">

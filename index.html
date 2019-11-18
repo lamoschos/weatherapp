@@ -3,15 +3,16 @@
     <head>
         <meta charset="UTF-8">
         <title>Overwatch v2</title>
-         <script type = "text/javascript">
-            function loadref(time)
-            {
-                setTimeout("location.reload(true);",time)
-            }
-        </script>
         <link rel="stylesheet" href="./style.css">
+        <!--Reload the Page-->
+        
+        <!--<script type="text/javascript">
+        function loadref(time) {
+            setTimeout("location.reload(true);", time);
+        }
+        </script>-->
     </head>
-    <body onload="Javascript:loadref(5000)">
+    <body onload="Javascript:loadref(70000)">
         <div class="container">
             <h2 id="city">Athens</h2>
             <div class="middle">
@@ -21,13 +22,14 @@
                     <span>&#176;</span>
                 </div>
                 <h3 id="desc">Sunny</h3>
+                <div class="alarm">
+                    <h2 id="alarm_type">AIE_Customer</h2>
+                </div>
             </div>
+            
         </div>
+        
         <!-- partial -->
-        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script><script  src="./script.js"></script>
-        <div class="class">alarm>
-            <h2 id="alarm_type">AIE_Customer</h2>
-            <h2 id="alarm_type">AIE_Customer</h2>
-        </div>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script><script  src="./script.js"></script>    
     </body>
 </html>
